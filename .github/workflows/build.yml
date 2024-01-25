@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     tags:
-      - *
+      - "*"
 
 env:
   BASE_IMAGE_NAME: jellyfin-tizen-docker
